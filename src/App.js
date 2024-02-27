@@ -1,23 +1,15 @@
 import logo from './logo.svg';
-import './App.css';
+import './random-text.css';
+import ReactImage from './ReactImage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="random-text">
+      <h1>Some text</h1>
+      <p>Some random text is here</p>
+      <p>Some random text is here</p>
+      <p>Some random text is here</p>
+      <ReactImage />
     </div>
   );
 }
